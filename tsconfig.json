@@ -1,10 +1,10 @@
 {
-  "files": [
-      "src/main.ts"
-  ],
   "compilerOptions": {
+      "module": "amd",
       "noImplicitAny": true,
+      "removeComments": true,
       "target": "es5",
+      "outFile": "main.js",
       "types": [
         "babylonjs"
       ]
